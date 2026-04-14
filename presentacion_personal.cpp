@@ -12,7 +12,7 @@ private:
     string ciudad;
 
 public:
-    PresentacionPersonal(string nombre, string perfil, int edad, string pais, string ciudad) {
+    PresentacionPersonal(const string& nombre, const string& perfil, int edad, const string& pais, const string& ciudad) {
         this->nombre  = nombre;
         this->perfil  = perfil;
         this->edad    = edad;
@@ -32,7 +32,7 @@ public:
         cout << "========================================" << endl;
         cout << "Nombre  : " << nombre  << endl;
         cout << "Perfil  : " << perfil  << endl;
-        cout << "Edad    : " << edad    << " anos"        << endl;
+        cout << "Edad    : " << edad    << " años"       << endl;
         cout << "Pais    : " << pais    << endl;
         cout << "Ciudad  : " << ciudad  << endl;
         cout << "========================================" << endl;
